@@ -4,7 +4,7 @@ class Engine
   end
 
   def start
-    if @start == true
+    if @start
       "Car is already on"
     else
       @start = true
